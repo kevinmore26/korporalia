@@ -43,7 +43,7 @@ export default function ProductoView(){
     }, [])
     
 /* Es una funcion que se va a ejecutar en el montaje */
-
+ 
   return (
     <div>
         {load ? (<Loading/>): (

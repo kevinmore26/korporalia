@@ -9,7 +9,7 @@ export default function GroupProducts({productos}) {
             <div className='row mt-3'>
                 {productos.map((prod,i)=>(
                     <div className='col-6 col-lg-3' key={i}> 
-                        <Link className='card mb-4' to={`detalle/${prod.product_id}`}>
+                        <Link className='card mb-4' to={`detalle/${prod.prod_id}`}>
                             <div>
                                 <img src={prod.prod_imagen} alt={prod.prod_imagen} className='card-img-top'>
 
